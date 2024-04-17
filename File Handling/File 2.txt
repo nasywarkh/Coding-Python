@@ -1,0 +1,3 @@
+New line in the file
+ini baris baru lagi
+Ini line baru dari append
