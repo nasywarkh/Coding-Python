@@ -26,7 +26,7 @@ while n <= 10:
     n += 2
 
 print(50*"=")
-for angka in range(1,10,2): # start 1, end = (10-1), step = 1
+for angka in range(1,10,2): # start 1, end = (10-1), step = 2
     print(angka)
     if angka == 5:
         break
