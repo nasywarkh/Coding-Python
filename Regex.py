@@ -25,5 +25,5 @@ x = re.sub(r"\s", "-", text)
 print(x)
 
 twit = "aku sedang belajar :)"
-y = re.sub(r"[:)]", "senang", twit)
+y = re.sub(r":\)", "senang", twit)
 print(y)
