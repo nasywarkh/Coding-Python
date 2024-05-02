@@ -1,13 +1,19 @@
 from random import randint
+import emoji
 
 print('Rock-Paper-Scissor Game')
 print('=======================')
 
 weapon = ['rock', 'paper', 'scissor']
+
 computer = weapon[randint(0,2)]
 
+sci = emoji.emojize(':scissors:')
+rock_emoji = emoji.emojize(":rock:")
+paper = emoji.emojize(":page_with_curl:")
+
 print("What weapon do you want to use?")
-print("Rock / Paper / Scissor")
+print(f"Rock {rock_emoji} / Paper {paper} / Scissor {sci}")
 player = input().lower()
 
 if player == computer:
