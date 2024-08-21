@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="" method="">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="fullname">Full Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="fullname" id="fullname" placeholder="Full Name" required maxlength="20">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="kelas">Kelas</label>
+                    </td>
+                    <td>
+                        <input type="text" name="kelas" id="kelas" value="10" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email" placeholder="alhazen@gmail.com" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="date">Date</label>
+                    </td>
+                    <td>
+                        <input type="date" name="date" id="date" required>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Hobi</h3>
+
+        <input type="checkbox" id="hobi1" name="hobi1" value="berenang" checked disabled>
+        <label for="hobi1">Berenang</label>
+
+        <br>
+
+        <input type="checkbox" id="hobi2" name="hobi2" value="sepakbola">
+        <label for="hobi2">Sepak Bola</label>
+
+        <br>
+
+        <input type="checkbox" id="hobi3" name="hobi3" value="berkuda">
+        <label for="hobi3">Berkuda</label>
+
+        <h4>Jenis Kelamin</h4>
+
+        <input type="radio" id="perempuan" name="jenisKelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label>
+
+        <br>
+
+        <input type="radio" id="laki-laki" name="jenisKelamin" value="Laki-laki">
+        <label for="laki-laki">Laki-laki</label>
+
+        <h3>Pilihan Kelas</h3>
+
+        <select name="pilihanKelas">
+            <option value="">--Pilih Kelas--</option>
+            <option value="phpweb">PHP Web Development</option>
+            <option value="pythonweb" selected>Python Web Development</option>
+            <option value="scratch">Scratch Programming</option>
+            <option value="thunkable">Thunkable Mobile App</option>
+        </select>
+
+        <br> <br>
+
+        <input type="submit" name="sumbit" value="Kirim">
+        <input type="reset" name="reset" value="Reset">
+
+
+
+
+    </form>
+</body>
+
+</html>
