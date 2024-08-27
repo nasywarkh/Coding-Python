@@ -1,0 +1,19 @@
+a {
+    color: rgb(175, 119, 49);
+    text-decoration: none;
+}
+
+#heading {
+    color: rgb(200, 59, 125);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#subheading {
+    color: rgb(51, 29, 95);
+    font-family: cursive;
+}
+
+.list-course {
+    color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
