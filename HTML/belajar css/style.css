@@ -17,3 +17,39 @@ a {
     color: darkslategray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#box1 {
+    border: 1px solid rgb(59, 35, 60);
+    color: rgb(22, 63, 109);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+
+    width: 50%;
+    height: auto;
+}
+
+#box2 {
+    border: 2px solid black;
+    color: forestgreen;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 25px;
+    padding: 15px;
+
+    width: 50%;
+    height: auto;
+}
+
+#box3 {
+    display: inline-block;
+    border: 2px solid rgb(55, 55, 114);
+    color: chocolate;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 15px;
+
+    width: 50%;
+    height: auto;
+}
