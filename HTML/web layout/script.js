@@ -53,3 +53,47 @@ switch (mod) {
 for (let num = 0; num < 10; num++) {
     console.log(num);
 }
+
+
+for (let num in fruits) {
+    console.log(fruits[num]);
+}
+
+for (let fruit of fruits){
+    console.log("I like "+fruit);
+}
+
+let angka = 0
+
+while (angka < 10) {
+    console.log("Angka : "+angka);
+    angka++
+}
+
+var animal = "Panda"
+console.log(animal);
+
+let hewan = "Singa"
+console.log(hewan);
+
+function greeting() {
+    console.log("Hello.."+animal);
+    console.log(hewan);
+    let negara = "Indonesia"
+    const g = 9.8
+    console.log(negara);
+    console.log(g)
+}
+// console.log(negara); let tidak bisa diakses diluar function
+// console.log(g); const tidak bisa diakses diluar function
+
+greeting()
+greeting()
+greeting()
+
+function sayHello (name) {
+    console.log(`Hello ${name}`);
+}
+
+sayHello("Budi")
+sayHello("Kiki")

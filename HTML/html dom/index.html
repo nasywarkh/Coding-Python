@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+</head>
+<body>
+    <form id="myForm" name="myForm" onsubmit="return validationForm()">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age">
+        <input type="submit" id="submit" name="submit" value="Send">
+    </form>
+    <h1 id="title1" style="color: rgb(206, 90, 90);">Web Title</h1>
+    <button type="button" onclick="changeColor()">Change Color</button>
+    <hr>
+    <a href="countdown.html">Count Down</a>
+    <script src="script.js"></script>
+    <script>
+        function changeColor() {
+            let color = document.getElementById("title1").style.color
+            console.log(color)
+
+            if (color == "rgb(206, 90, 90)") {
+                document.getElementById("title1").style.color = "rgb(118, 26, 26)"
+            } else {
+                document.getElementById("title1").style.color = "rgb(206, 90, 90)"
+            }
+        }
+    </script>
+</body>
+</html>

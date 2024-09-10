@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+ 
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            text-align: center;
+        }
+ 
+        button{
+            width: 150px;
+            margin-bottom: 3px;
+            border-radius: 3px;
+            color: white;
+            margin:0;
+        }
+ 
+        .blue {
+            background-color: blue;
+        }
+ 
+        .red {
+            background-color: red;
+        }
+ 
+        #number {
+            font-size: 100px;
+            width:200px;
+            text-align: center;
+            margin:auto;
+        }
+ 
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <p id="number">0</p>
+ 
+        <button class="button blue" onclick= count()>COUNT</button>
+        <br>
+        <button class="button red" onclick= reset()>RESET</button>
+    </div>    
+ 
+    <script>
+       // masukkan script javascript di sini
+       function count() {
+        let number = document.getElementById("number").innerHTML
+        let count = parseInt(number) + 1
+        document.getElementById("number").innerHTML = count
+       }
+
+       function reset() {
+        document.getElementById("number").innerHTML = 0
+       }
+    </script>
+</body>
+</html>
